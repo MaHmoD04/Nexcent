@@ -164,8 +164,8 @@ header {
           padding: 7px 24px;
           background-color: $primaryColor;
           button {
-            background-color: transparent;
-            border: none;
+            background-color: transparent !important;
+            border: none !important;
             color: $white;
             margin-right: 5px;
             position: relative;

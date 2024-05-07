@@ -165,8 +165,8 @@ header nav ul li.active {
   -o-border-radius: 4px;
 }
 header nav ul li.active button {
-  background-color: transparent;
-  border: none;
+  background-color: transparent !important;
+  border: none !important;
   color: #ffffff;
   margin-right: 5px;
   position: relative;
