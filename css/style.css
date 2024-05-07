@@ -164,22 +164,24 @@ header nav ul li.active {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
-header nav ul li.active a {
+header nav ul li.active button {
+  background-color: transparent;
+  border: none;
   color: #ffffff;
   margin-right: 5px;
   position: relative;
 }
-header nav ul li.active a:hover {
+header nav ul li.active button:hover {
   color: #ffffff;
 }
-header nav ul li.active a:hover svg {
+header nav ul li.active button:hover svg {
   transform: translate(3px) rotate(-40deg);
   -webkit-transform: translate(3px) rotate(-40deg);
   -moz-transform: translate(3px) rotate(-40deg);
   -ms-transform: translate(3px) rotate(-40deg);
   -o-transform: translate(3px) rotate(-40deg);
 }
-header nav ul li.active a svg {
+header nav ul li.active button svg {
   transition: 0.4s;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
@@ -223,6 +225,18 @@ header nav ul li:not(:last-child):hover::before {
 }
 header nav ul.right {
   right: 0;
+}
+header nav .modal-header .modal-title {
+  color: #4d4d4d;
+  font-family: "Inter-SemiBold";
+  font-size: 30px;
+}
+header nav .modal-body button {
+  background-color: #4caf4f;
+  border: none;
+}
+header nav .modal-body button:hover {
+  background-color: #4caf4f;
 }
 
 /*end: header*/

@@ -163,7 +163,9 @@ header {
         &.active {
           padding: 7px 24px;
           background-color: $primaryColor;
-          a {
+          button {
+            background-color: transparent;
+            border: none;
             color: $white;
             margin-right: 5px;
             position: relative;
@@ -229,6 +231,24 @@ header {
       }
       &.right {
         right: 0;
+      }
+    }
+    .modal-header {
+      .modal-title {
+        color: $dGrey;
+        font : {
+          family: "Inter-SemiBold";
+          size: 30px;
+        }
+      }
+    }
+    .modal-body {
+      button {
+        background-color: $primaryColor;
+        border: none;
+        &:hover {
+          background-color: $primaryColor;
+        }
       }
     }
   }

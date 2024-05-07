@@ -39,13 +39,45 @@
             <a href="#" class=" text-capitalize">pricing</a>
           </li>
           <li class="active d-flex align-items-center">
-            <a href="#" class=" text-capitalize">register now
+            <button type="button" class=" text-capitalize" data-toggle="modal" data-target="#exampleModal">register now
               <i class="fa-solid fa-arrow-right-long"></i>
-            </a>
+            </button>
           </li>
+          <!-- Modal -->
         </ul>
         <div class="bars">
           <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-capitalize" id="exampleModalLabel">Register</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-12">
+                      <label for="inputEmail4">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="form-group col-md-12">
+                      <label for="inputPassword4">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress">Confirm Password</label>
+                    <input type="password" class="form-control" id="inputAddress">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
     </div>
