@@ -10,9 +10,9 @@
 * JavaScript
 
 # Libraries used on the site:
-* Bootstrap v4.6
-* fontawesome v6
-* jQuery.js
-* scrollreveal.js
+* Bootstrap v4.6 https://getbootstrap.com/docs/4.6/getting-started/introduction/
+* fontawesome v6 https://fontawesome.com/
+* jQuery.js https://jquery.com/
+* scrollreveal.js https://scrollrevealjs.org/
 
 # figam file to html
